@@ -35,7 +35,8 @@ ipbutton.addEventListener('click', (e) => {
             location.innerText = `${locationCity}, ${locationCountry} ${locationGeonameId}`
             timezone.innerText = `UTC ${locationGeonameTimeZone}`
             isp.innerText = `${ISP}`
-
+            
+            console.log(latitude)
             const geojson = {
                 'type': 'FeatureCollection',
                 'features': [
