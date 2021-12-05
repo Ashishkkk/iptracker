@@ -54,7 +54,7 @@ ipbutton.addEventListener('click', (e) => {
                 // Create a DOM element for each marker.
                 const el = document.createElement('div');
                 el.className = 'marker';
-                el.style.backgroundImage = `url(../images/icon-location.png)`;
+                el.style.backgroundImage = `url(../../images/icon-location.png)`;
                 el.style.width = `50px`;
                 el.style.height = `60px`;
                 el.style.backgroundSize = '100%';
